@@ -1,4 +1,4 @@
-package lovebird;
+package fdtd;
 
 public class Point {
 	double x, y, z;
