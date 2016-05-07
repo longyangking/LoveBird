@@ -46,5 +46,12 @@ public class SystemSettings {
 		RemoteCore = num;
 	}
 	
-	
+	//Info of temp folder
+	private static String TempFolder = "";
+	public static String getTempFolder(){
+		return TempFolder;
+	}
+	public static void setTempFolder(String folder){
+		TempFolder = folder;
+	}
 }
