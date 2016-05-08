@@ -6,8 +6,9 @@ package script;
  *
  */
 public class Script {
-	public static void execute(String str) throws IllegalExpression {
+	// TODO this is just temp solution
+	public static int Execute(String str) throws IllegalExpression {
 		Interpreter interpreter = new Interpreter(new Lexer(str));
-		interpreter.execute();	
+		return interpreter.execute();	
 	}
 }
