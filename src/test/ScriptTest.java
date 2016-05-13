@@ -17,6 +17,7 @@ public class ScriptTest {
 	public void testExecute() {
 		try {
 			assertEquals(2, Script.Execute("1+1"));
+			assertEquals(4, Script.Execute("8/2"));
 		} catch (Exception e){
 			e.printStackTrace();
 		}
