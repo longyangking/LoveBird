@@ -13,8 +13,8 @@ class PhysicsConst:
     '''
     Epsilon0 = 8.854187817*10**-12
     Mu0 = 4.0*math.pi*10**-7
-    C = 299792458
-    Eta0 = 377
+    C = 299792458.0
+    Eta0 = 377.0
 
 class SystemConst:
     '''
