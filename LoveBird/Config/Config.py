@@ -64,3 +64,5 @@ class SystemConfig:
         Set the directory of temp folder
         '''
         TempFolder = folder
+
+    
